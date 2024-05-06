@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = "ClassicLockScreenSettings";
+		cell = PSLinkCell;
+		detail = "ClassicLockScreenSettingsListController";
+		icon = "ClassicLockScreenSettings.png";
+		isController = 1;
+		label = "Classic Lock Screen";
+	};
+}

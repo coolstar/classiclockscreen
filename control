@@ -1,0 +1,9 @@
+Package: org.coolstar.classiclockscreen
+Name: ClassicLockScreen
+Depends: mobilesubstrate, curl, firmware (< 8.0) | org.coolstar.libclassictelephonyui
+Version: 3.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: CoolStar
+Author: CoolStar, Jeremy Goulet, and Phillip Tennen
+Section: Tweaks

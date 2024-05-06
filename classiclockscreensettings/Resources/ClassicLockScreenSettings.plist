@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>org.coolstar.classiclockscreen</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>alternateColors</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>org.coolstar.classiclockscreen</string>
+			<key>key</key>
+			<string>grabberEnabled</string>
+			<key>label</key>
+			<string>LS Camera (Not for iPad)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>org.coolstar.classiclockscreen</string>
+			<key>key</key>
+			<string>albumArtwork</string>
+			<key>label</key>
+			<string>Album Artwork when Playing</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>org.coolstar.classiclockscreen</string>
+			<key>key</key>
+			<string>secondsEnabled</string>
+			<key>label</key>
+			<string>Lock Screen Seconds</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Modern Mode</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>org.coolstar.classiclockscreen</string>
+			<key>key</key>
+			<string>modern</string>
+			<key>label</key>
+			<string>Modern Mode</string>
+			<key>footerText</key>
+			<string>Switching between modern and classic modes requires a respring.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>org.coolstar.classiclockscreen</string>
+			<key>key</key>
+			<string>darkmode</string>
+			<key>label</key>
+			<string>Dark Mode</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>org.coolstar.classiclockscreen</string>
+			<key>key</key>
+			<string>altslider</string>
+			<key>label</key>
+			<string>7.1 Style Slider</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Advanced Settings</string>
+			<key>footerText</key>
+			<string>For the best experience, it's recommended to leave these settings untouched. However, if you want, you may tinker with some extra settings here.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>org.coolstar.classiclockscreen</string>
+			<key>key</key>
+			<string>advsettings</string>
+			<key>label</key>
+			<string>Advanced Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSTitleValueCell</string>
+			<key>label</key>
+			<string>Blur Radius</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<integer>25</integer>
+			<key>defaults</key>
+			<string>org.coolstar.classiclockscreen</string>
+			<key>showValue</key>
+			<true/>
+			<key>min</key>
+			<integer>0</integer>
+			<key>max</key>
+			<integer>50</integer>
+			<key>key</key>
+			<string>blurRadius</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>org.coolstar.classiclockscreen</string>
+			<key>key</key>
+			<string>hidebgforartwork</string>
+			<key>label</key>
+			<string>Hide Background for Album Artwork</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>footerText</key>
+			<string>If you want to switch between modern and classic modes, please respring.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>action</key>
+			<string>respring:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Credits</string>
+			<key>footerText</key>
+			<string>ClassicLockScreen is ©2014 by CoolStar, Jérémy Goulet, and Phillip Tennen. Icon by @krevony. All Rights Reserved.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>CoolStar (@coolstarorg)</string>
+			<key>action</key>
+			<string>coolstarTwitter:</string>
+			<key>icon</key>
+			<string>/Applications/Preferences.app/Twitter.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Phillip Tennen (@phillipten)</string>
+			<key>action</key>
+			<string>phillipTwitter:</string>
+			<key>icon</key>
+			<string>/Applications/Preferences.app/Twitter.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Jérémy Goulet (@JeremyGoulet)</string>
+			<key>action</key>
+			<string>jeremyTwitter:</string>
+			<key>icon</key>
+			<string>/Applications/Preferences.app/Twitter.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Kyle Revony (@krevony)</string>
+			<key>action</key>
+			<string>krevonyTwitter:</string>
+			<key>icon</key>
+			<string>/Applications/Preferences.app/Twitter.png</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Classic Lock Screen</string>
+</dict>
+</plist>
